@@ -1,24 +1,45 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Accessible Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<h1>Hello</h1>
-	<nav role="navigation">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
+
+    <!-- Header Section -->
+    <header role="banner">
+        <h1 role="heading">Welcome to My Accessible Website</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#home">Home</a></li>
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-	<img alt="">
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Image Section -->
+    <section>
+        <img role="img" alt="A beautiful view of the ocean" src="image.jpg">
+    </section>
+
+    <!-- Brief Description Section -->
+    <section role="main">
+        <p>Welcome to our website, where we showcase beautiful landscapes and breathtaking views. Explore our gallery and learn more about our amazing adventures.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer role="contentinfo">
+        <p>&copy; 2025 My Accessible Website. All Rights Reserved.</p>
+    </footer>
+
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
